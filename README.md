@@ -1,70 +1,19 @@
-# Getting Started with Create React App
+Creating a to-do app using React and Tailwind CSS combines modern JavaScript functionality with elegant and flexible styling. The app focuses on two main features: adding tasks and deleting tasks.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+In React, the state management is key to handling the list of tasks. You start by setting up a component that includes an input field and a button for adding tasks. When a user types a task into the input field and clicks the add button, the task is appended to the state array that holds all tasks. This triggers a re-render, displaying the new task in the list.
 
-## Available Scripts
+<img width="1280" alt="2024-06-30 (11)" src="https://github.com/sdn-krishna/Todo-App/assets/148681602/71d36369-3beb-4407-9ebb-eca9d8e7dc8c">
 
-In the project directory, you can run:
+<img width="1280" alt="2024-06-30 (12)" src="https://github.com/sdn-krishna/Todo-App/assets/148681602/b38ed43e-bf7b-484f-8fa4-e9d3e829ae38">
 
-### `npm start`
+<img width="1280" alt="2024-06-30 (13)" src="https://github.com/sdn-krishna/Todo-App/assets/148681602/02344035-4a67-4731-a5b4-9264d1a5c3f7">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Each task in the list includes a delete button. Clicking this button triggers a function that filters out the task from the state array, effectively deleting it and updating the UI accordingly. React's component-based architecture ensures that the UI remains in sync with the underlying state.
 
-### `npm test`
+<img width="1280" alt="2024-06-30 (14)" src="https://github.com/sdn-krishna/Todo-App/assets/148681602/130d925d-9005-45f8-aa0d-fbc887317e52">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+Tailwind CSS brings a streamlined approach to styling the app. Using Tailwind's utility classes, you can easily style the input field, buttons, and task list. For instance, you can apply bg-blue-500 for button colors, p-2 for padding, and m-2 for margins. Tailwind's responsive design utilities also help in making the app look great on various devices.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This combination of React and Tailwind CSS results in a to-do app that is both functional and visually appealing, offering a seamless user experience and efficient development process.
